@@ -16,13 +16,13 @@ import settings from './pages/settings/settings.vue'
 const activeIndex = ref('1')
 
 // 根据菜单项选择更新页面内容
-const updateActiveIndex = (index: string) => {
+const updateActiveIndex = (index: string): void => {
   activeIndex.value = index
 }
 </script>
 
 <template>
-  <navigationBar :activeIndex="activeIndex" @updateActiveIndex="updateActiveIndex" />
+  <navigationBar :active-index="activeIndex" @update-active-index="updateActiveIndex" />
 
   <div v-if="activeIndex === '1'">
     <mainPage />
