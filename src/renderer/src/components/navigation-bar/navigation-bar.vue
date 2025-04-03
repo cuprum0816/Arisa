@@ -42,12 +42,13 @@ const navBarSelect = (key: string): void => {
   width: 40px;
   height: 40px;
   margin-right: 30px;
-  margin-left: 10px;
+  margin-left: 40px;
   margin-top: 5px;
 }
 .greeting {
   display: flex;
   font-size: 40px;
   margin-right: 30px;
+  margin-left: 30px;
 }
 </style>
