@@ -7,7 +7,7 @@
           <el-card class="box-card">
             <template #header>
               <div class="clearfix">
-                <span>首页</span>
+                <span>数据清理</span>
               </div>
             </template>
             <div class="text item">欢迎使用 Arisa！</div>
