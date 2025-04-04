@@ -1,25 +1,26 @@
 # Arisa
-An Electron application focused on data cleansing.
+Arisa是一款基于Electron的数据清洗及可视化教育软件。
 
-## Recommended IDE Setup
+
+### Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-## Project Setup
+### Project Setup
 
-### Install
+#### Install
 
 ```bash
 $ npm install
 ```
 
-### Development
+#### Development
 
 ```bash
 $ npm run dev
 ```
 
-### Build
+#### Build
 
 ```bash
 # For windows
