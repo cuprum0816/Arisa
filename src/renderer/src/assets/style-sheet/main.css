@@ -1,0 +1,5 @@
+@import './base.css';
+.content {
+  display: -ms-flexbox;
+  background-color: lightcyan;
+}

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <navigation-bar />
     <div class="main-content">
       <el-row>
         <el-col :span="24">

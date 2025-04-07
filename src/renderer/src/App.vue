@@ -22,21 +22,23 @@ const updateActiveIndex = (index: string): void => {
 </script>
 
 <template>
-  <navigationBar :active-index="activeIndex" @update-active-index="updateActiveIndex" />
+  <div class="app">
+    <navigationBar :active-index="activeIndex" @update-active-index="updateActiveIndex" />
 
-  <div v-if="activeIndex === '1'">
-    <mainPage />
-  </div>
-  <div v-if="activeIndex === '2'">
-    <sampleCleaning />
-  </div>
-  <div v-if="activeIndex === '3'">
-    <sampleVisualization />
-  </div>
-  <div v-if="activeIndex === '4'">
-    <helpDoc />
-  </div>
-  <div v-if="activeIndex === '5'">
-    <settings />
+    <div v-if="activeIndex === '1'">
+      <mainPage />
+    </div>
+    <div v-if="activeIndex === '2'">
+      <sampleCleaning />
+    </div>
+    <div v-if="activeIndex === '3'">
+      <sampleVisualization />
+    </div>
+    <div v-if="activeIndex === '4'">
+      <helpDoc />
+    </div>
+    <div v-if="activeIndex === '5'">
+      <settings />
+    </div>
   </div>
 </template>

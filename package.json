@@ -23,6 +23,7 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^4.0.0",
+    "electron-storage": "^1.0.7",
     "element-plus": "^2.9.7",
     "pinia": "^3.0.1",
     "sass": "^1.86.2"
