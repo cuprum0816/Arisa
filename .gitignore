@@ -6,6 +6,6 @@ out
 *.log*
 .idea
 .vscode
-./.prettierrc.yaml
-./.prettierignore
-./.editorconfig
+/.editorconfig
+/.prettierrc.yaml
+/.prettierignore
