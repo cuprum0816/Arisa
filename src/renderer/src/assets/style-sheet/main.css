@@ -1,0 +1,6 @@
+@import './base.css';
+.content {
+  display: -ms-flexbox;
+  background-color: var(--ev-c-white-soft);
+  height: 100vh;
+}

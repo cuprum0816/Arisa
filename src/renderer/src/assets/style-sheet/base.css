@@ -44,6 +44,7 @@ ul {
 }
 
 body {
+  margin:0; /*覆盖浏览器默认边距*/
   min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);

@@ -6,19 +6,21 @@
   该组件还定义了一个 navBarSelect 方法，用于处理菜单项的选择事件。
 -->
 <template>
-  <el-menu :default-active="activeIndex" mode="horizontal" @select="navBarSelect">
-    <div class="logo">
-      <img class="logo" src="../../assets/icon.png" />
-    </div>
-    <div class="greeting">
-      <el-text :style="{ fontSize: 'large', fontWeight: 'bold' }">Arisa</el-text>
-    </div>
-    <el-menu-item index="1">首页</el-menu-item>
-    <el-menu-item index="2">样本清洗</el-menu-item>
-    <el-menu-item index="3">样本可视化</el-menu-item>
-    <el-menu-item index="4">帮助文档</el-menu-item>
-    <el-menu-item index="5">设置</el-menu-item>
-  </el-menu>
+  <div class="navigation-bar">
+    <el-menu :default-active="activeIndex" mode="horizontal" @select="navBarSelect">
+      <div class="logo">
+        <img class="logo" src="../../assets/icon.png" alt="Arisa" />
+      </div>
+      <div class="greeting">
+        <el-text :style="{ fontSize: 'large', fontWeight: 'bold' }">Arisa</el-text>
+      </div>
+      <el-menu-item index="1">首页</el-menu-item>
+      <el-menu-item index="2">样本清洗</el-menu-item>
+      <el-menu-item index="3">样本可视化</el-menu-item>
+      <el-menu-item index="4">帮助文档</el-menu-item>
+      <el-menu-item index="5">设置</el-menu-item>
+    </el-menu>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -41,14 +43,17 @@ const navBarSelect = (key: string): void => {
 .logo {
   width: 40px;
   height: 40px;
+  margin-left: 10px;
   margin-right: 30px;
-  margin-left: 40px;
   margin-top: 5px;
 }
 .greeting {
   display: flex;
   font-size: 40px;
   margin-right: 30px;
-  margin-left: 30px;
+}
+.navigation-bar {
+  padding: 0;
+  margin: 0;
 }
 </style>
