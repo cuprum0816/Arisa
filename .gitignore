@@ -4,4 +4,8 @@ out
 .DS_Store
 .eslintcache
 *.log*
-/.idea/
+.idea
+.vscode
+./.prettierrc.yaml
+./.prettierignore
+./.editorconfig
