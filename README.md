@@ -1,11 +1,6 @@
 # Arisa
 Arisa是一款基于Electron的数据清洗及可视化教育软件。
 
-
-### Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-
 ### Project Setup
 
 #### Install
