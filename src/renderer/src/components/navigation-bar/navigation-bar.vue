@@ -9,14 +9,14 @@
   <div class="navigation-bar">
     <el-menu :default-active="activeIndex" mode="horizontal" @select="navBarSelect">
       <div class="logo">
-        <img class="logo" src="../../assets/icon.png" alt="Arisa" />
+        <img class="logo" src="../../assets/header.png" alt="Arisa" />
       </div>
       <div class="greeting">
         <el-text :style="{ fontSize: 'large', fontWeight: 'bold' }">Arisa</el-text>
       </div>
       <el-menu-item index="1">首页</el-menu-item>
-      <el-menu-item index="2">样本清洗</el-menu-item>
-      <el-menu-item index="3">样本可视化</el-menu-item>
+      <el-menu-item index="2">样本服务</el-menu-item>
+      <el-menu-item index="3">数据库服务</el-menu-item>
       <el-menu-item index="4">帮助文档</el-menu-item>
       <el-menu-item index="5">设置</el-menu-item>
     </el-menu>
@@ -24,18 +24,18 @@
 </template>
 
 <script lang="ts" setup>
-import { defineEmits, ref } from 'vue'
+import { defineEmits, ref } from "vue";
 
 // 定义事件，通知父组件更新选中的菜单项
-const emit = defineEmits(['updateActiveIndex'])
+const emit = defineEmits(["updateActiveIndex"]);
 
 // activeIndex 用于在本组件中标记当前选中的菜单项
-const activeIndex = ref('1')
+const activeIndex = ref("1");
 
 // 当菜单项被选中时触发此方法
 const navBarSelect = (key: string): void => {
   // 触发事件，将选中的 key 传递给父组件
-  emit('updateActiveIndex', key)
+  emit("updateActiveIndex", key);
 }
 </script>
 
